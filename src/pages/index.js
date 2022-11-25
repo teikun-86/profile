@@ -15,7 +15,7 @@ import idID from "@/lang/id.json";
 
 // assets
 import ogImage from "@/assets/images/og-image.png";
-import meSq from "@/assets/images/me-sq.JPG";
+import meSq from "@/assets/images/me-sq.jpg";
 import munky from "@/assets/images/projects/munky-monkey.png";
 import fella from "@/assets/images/projects/fella-blooms.png";
 import chimera from "@/assets/images/projects/chimeradude-gang.png";
