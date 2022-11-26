@@ -362,14 +362,17 @@ const Home = () => {
                         <div className="flex flex-col items-center justify-center p-2 mx-2 my-2">
                             <IDIcon className="w-10 h-10" />
                             <span className="text-gray-900 font-semibold text-base">{lang('indonesian')}</span>
+                            <small className="text-gray-600 text-sm">{lang('native')}</small>
                         </div>
                         <div className="flex flex-col items-center justify-center p-2 mx-2 my-2">
                             <USIcon className="w-10 h-10" />
                             <span className="text-gray-900 font-semibold text-base">{lang('english')}</span>
+                            <small className="text-gray-600 text-sm">{lang('conversational')}</small>
                         </div>
                         <div className="flex flex-col items-center justify-center p-2 mx-2 my-2">
                             <JAIcon className="w-10 h-10" />
                             <span className="text-gray-900 font-semibold text-base">{lang('japanese')}</span>
+                            <small className="text-gray-600 text-sm">{lang('conversational')}</small>
                         </div>
                     </div>
                     <div className="flex items-center justify-center mt-3">

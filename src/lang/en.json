@@ -22,5 +22,7 @@
     "contact.text": "Want me to build something for you? Or hire me to your company? Send me a mail here:",
     "contact.name": "Full Name",
     "contact.subject": "Subject",
-    "contact.next": "Next"
+    "contact.next": "Next",
+    "native": "Native",
+    "conversational": "Conversational"
 }

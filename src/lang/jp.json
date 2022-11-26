@@ -23,5 +23,7 @@
     "contact.text": "プロジェクトがありますか？それとも会社に私を雇うのですか？こちらにメールを送ってください：",
     "contact.name": "フルネーム",
     "contact.subject": "件名",
-    "contact.next": "次へ"
+    "contact.next": "次へ",
+    "native": "母国語",
+    "conversational": "日常会話レベル"
 }
