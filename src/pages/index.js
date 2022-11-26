@@ -55,7 +55,7 @@ const Home = () => {
         },
         js: {
             name: "Javascript",
-            labelLink: <a href="https://php.net" target="_blank" rel="noopener noreferrer" className="px-1 py-1 rounded border border-yellow-500 uppercase flex items-center text-xs whitespace-nowrap text-yellow-500"><JavascriptIcon className="w-5 h-5" /></a>,
+            labelLink: <a href="https://javascript.com" target="_blank" rel="noopener noreferrer" className="px-1 py-1 rounded border border-yellow-500 uppercase flex items-center text-xs whitespace-nowrap text-yellow-500"><JavascriptIcon className="w-5 h-5" /></a>,
             icon: <JavascriptIcon className="w-10 h-10 text-yellow-500" />,
         },
         laravel: {
