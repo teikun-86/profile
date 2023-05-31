@@ -24,5 +24,11 @@
     "contact.subject": "Subject",
     "contact.next": "Next",
     "native": "Native",
-    "conversational": "Conversational"
+    "conversational": "Conversational",
+    "ts.date": "February 2022 - December 2022",
+    "ts.desc": "Design the database, UI, Idea and develop the web app for NFT gallery, marketplace, evolution, etc.",
+    "cofounder": "Co-Founder",
+    "frontend": "Front-end Developer",
+    "sit.date": "December 2022 - March 2023",
+    "sit.desc": "Developing the front-end, back-end, UI/UX, database design for travel ticket sale website app."
 }

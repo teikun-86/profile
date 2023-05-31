@@ -24,5 +24,11 @@
     "contact.subject": "Subjek",
     "contact.next": "Selanjutnya",
     "native": "Bahasa Asli",
-    "conversational": "Level Percakapan"
+    "conversational": "Level Percakapan",
+    "ts.date": "Februari 2022 - Desember 2022",
+    "ts.desc": "Merancang database, UI/UX, ide, dan mengembangkan aplikasi web untuk galeri, pasar, evolusi NFT.",
+    "cofounder": "Co-Founder",
+    "frontend": "Front-end Developer",
+    "sit.date": "Desember 2022 - Maret 2023",
+    "sit.desc": "Mengembangkan front-end, back-end, UI/UX, dan desain database untuk aplikasi web penjualan tiket perjalanan."
 }

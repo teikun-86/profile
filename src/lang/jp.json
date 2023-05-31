@@ -25,5 +25,11 @@
     "contact.subject": "件名",
     "contact.next": "次へ",
     "native": "母国語",
-    "conversational": "日常会話レベル"
+    "conversational": "日常会話レベル",
+    "ts.date": "2022年2月 - 2022年12月",
+    "ts.desc": "NFTギャラリー、マーケットプレイス、エボリューションなどのデータベース、UI、アイデアを設計し、Webアプリを開発。",
+    "cofounder": "Co-Founder",
+    "frontend": "フロントエンドデベロッパー",
+    "sit.date": "2022年12月 - 2023年3月",
+    "sit.desc": "旅行券販売サイトアプリのフロントエンド、バックエンド、UI/UX、データベースデザインを開発。"
 }

@@ -21,7 +21,7 @@ import fella from "@/assets/images/projects/fella-blooms.png";
 import chimera from "@/assets/images/projects/chimeradude-gang.png";
 
 // Icons
-import { ArrowRightIcon, ArrowUpIcon, AtSymbolIcon, DocumentArrowDownIcon, LanguageIcon } from "@heroicons/react/24/outline";
+import { ArrowRightIcon, ArrowUpIcon, AtSymbolIcon, ChevronDownIcon, DocumentArrowDownIcon, LanguageIcon } from "@heroicons/react/24/outline";
 import { HeartIcon } from "@heroicons/react/24/solid";
 import JAIcon from "@/components/svg/ja";
 import IDIcon from "@/components/svg/id";
@@ -218,9 +218,9 @@ const Home = () => {
                                 </button>
                             </Dropdown.Label>
                             <Dropdown.Content>
-                                <Dropdown.Item as="a" href="/en"><USIcon className="w-5 h-5 mr-2" /> English</Dropdown.Item>
-                                <Dropdown.Item as="a" href="/id"><IDIcon className="w-5 h-5 mr-2" /> Bahasa Indonesia</Dropdown.Item>
-                                <Dropdown.Item as="a" href="/jp"><JAIcon className="w-5 h-5 mr-2" /> 日本語</Dropdown.Item>
+                                <Dropdown.Item as="a" shallow={true} locale="en" href="/#"><USIcon className="w-5 h-5 mr-2" /> English</Dropdown.Item>
+                                <Dropdown.Item as="a" shallow={true} locale="id" href="/#"><IDIcon className="w-5 h-5 mr-2" /> Bahasa Indonesia</Dropdown.Item>
+                                <Dropdown.Item as="a" shallow={true} locale="jp" href="/#"><JAIcon className="w-5 h-5 mr-2" /> 日本語</Dropdown.Item>
                             </Dropdown.Content>
                         </Dropdown>
                     </div>
@@ -271,12 +271,15 @@ const Home = () => {
                             <p className="text-sm text-gray-600">{lang('uss.date')}</p>
                             <p className="text-sm">{lang('uss.desc')}</p>
                         </div>
-                        <div className="hidden absolute -left-8 top-6 md:flex flex-col items-center">
-                            <span className="w-6 h-6 rounded-full bg-gray-50 border-gray-600 border-4"></span>
-                            <span className="w-1 h-4 bg-gray-600 my-1"></span>
-                            <span className="w-1 h-4 bg-gray-600 my-1"></span>
-                            <span className="w-1 h-4 bg-gray-600 my-1"></span>
-                            <span className="w-6 h-6 rounded-full bg-gray-50 border-gray-600 border-4"></span>
+                        <div className="bg-white p-3 rounded-lg w-full shadow-md my-3 relative">
+                            <h4 className="font-semibold text-lg">TwinSlipper.org <span className="font-normal text-sm italic"> ー {lang('cofounder')} & {lang('fullstack')}</span></h4>
+                            <p className="text-sm text-gray-600">{lang('ts.date')}</p>
+                            <p className="text-sm">{lang('ts.desc')}</p>
+                        </div>
+                        <div className="bg-white p-3 rounded-lg w-full shadow-md my-3 relative">
+                            <h4 className="font-semibold text-lg">PT. Sintegra Inovasi Teknologi <span className="font-normal text-sm italic"> ー {lang('frontend')}</span></h4>
+                            <p className="text-sm text-gray-600">{lang('sit.date')}</p>
+                            <p className="text-sm">{lang('sit.desc')}</p>
                         </div>
                     </div>
                     <div className="flex items-center justify-center">
