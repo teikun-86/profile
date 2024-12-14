@@ -14,7 +14,7 @@ type GroupedNavigationLinks = Record<string, NavigationLink[]>;
 
 const Links: NavigationLink[] = [
     {
-        href: "/blog",
+        href: "/blogs",
         title: "Blogs",
         group: "main",
     },
@@ -22,12 +22,7 @@ const Links: NavigationLink[] = [
         href: "/projects",
         title: "Projects",
         group: "main",
-    },
-    {
-        href: "/contact",
-        title: "Contact",
-        group: "main",
-    },
+    }
 ]
 
 const GroupedNavigationLink: GroupedNavigationLinks = {};
