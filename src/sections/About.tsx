@@ -59,7 +59,7 @@ const About = () => {
                     development projects, I enjoy exploring emerging tech
                     trends, spending time with cats, and diving into fantasy
                     comics and manga. Let&apos;s connect and collaborate on
-                    build something amazing!
+                    building something amazing!
                 </>
             ),
         },
