@@ -7,6 +7,7 @@ import Navbar from "@/components/app/Navbar";
 import "animate.css/animate.compat.css";
 import "swiper/css";
 import BaseProvider from "@/providers/BaseProvider";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
@@ -50,6 +51,7 @@ export default function RootLayout({
 						<Navbar />
 						{children}
 					</main>
+					<Analytics />
 				</body>
 			</BaseProvider>
         </html>
