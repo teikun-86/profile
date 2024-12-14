@@ -40,7 +40,7 @@ export default function RootLayout({
         <html lang="en">
             <BaseProvider>
 				<body
-					className={`${geistSans.variable} ${geistMono.variable} antialiased bg-no-repeat bg-center bg-cover bg-fixed`}
+					className={`${geistSans.variable} ${geistMono.variable} antialiased bg-no-repeat bg-center bg-cover bg-fixed overflow-x-hidden`}
 					style={{
 						backgroundImage: `url(${bgCity.src})`,
 					}}
