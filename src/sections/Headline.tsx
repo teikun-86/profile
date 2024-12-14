@@ -1,10 +1,6 @@
 "use client";
 
 import PrimaryButton from "@/components/buttons/PrimaryButton";
-import Link from "next/link";
-import LinkedIn from "@/components/icons/LinkedIn";
-import Instagram from "@/components/icons/Instagram";
-import GitHub from "@/components/icons/GitHub";
 import ScrollAnimation from "react-animate-on-scroll";
 import FetchImage from "@/components/app/Image";
 

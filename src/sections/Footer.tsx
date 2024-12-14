@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                 but hey, here&apos;s a little virtual high-five just for you! 🖐️
             </p>
             <p className="text-sm mt-2 italic">
-                "Sometimes the best treasures are hidden in plain sight."
+                &quot;Sometimes the best treasures are hidden in plain sight.&quot;
             </p>
             <p className="text-sm mt-4">
                 Made with ❤️, ☕, and a bit debugging by <Link href="/" className="underline hover:text-cyan-400">Aziz Febriyanto</Link>.

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import config from "@/config.json"
 import { useAsset } from "@/hooks/use-asset";
 import ScrollAnimation from "react-animate-on-scroll";
+import Image from "next/image";
 
 const About = () => {
     const { loadAsset } = useAsset();
@@ -84,6 +85,7 @@ const About = () => {
                 return prev;
             });
         })
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     
     return (
@@ -111,9 +113,11 @@ const About = () => {
                             >
                                 {
                                     tab.image !== '' && (
-                                        <img
+                                        <Image
                                             src={tab.image}
                                             alt={tab.title}
+                                            height={384}
+                                            width={384}
                                             className="rounded-lg shadow-lg object-cover w-auto h-48"
                                         />
                                     )
