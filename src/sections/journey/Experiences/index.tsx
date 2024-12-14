@@ -1,5 +1,6 @@
 "use client";
 
+import PrimaryButton from "@/components/buttons/PrimaryButton";
 import { useEffect, useRef } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -62,10 +63,22 @@ const Timeline: React.FC = () => {
         }
     }, []);
 
+    const scrollToTechStacks = () => {
+        const element = document.querySelector("#tech-stacks");
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+            });
+        }
+    };
+
     return (
         <section id="journeys" className="min-h-screen">
             <div className="max-w-4xl mx-auto p-6">
-                <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutDown">
+                <ScrollAnimation
+                    animateIn="fadeInDown"
+                    animateOut="fadeOutDown"
+                >
                     <h2 className="text-3xl font-bold text-center mb-8">
                         My Journey
                     </h2>
@@ -75,7 +88,7 @@ const Timeline: React.FC = () => {
                         {experiences.map((exp, index) => (
                             <div
                                 key={index}
-                                className="bg-white/10 shadow-cyan-300 shadow-lg rounded-lg text-center md:text-left w-full cursor-pointer hover:bg-white/15 transition-all duration-100 backdrop-blur"
+                                className="bg-gray-800/10 rounded-lg text-center md:text-left w-full cursor-pointer hover:bg-gray-800/20 transition-all duration-100 backdrop-blur"
                             >
                                 {exp.containMultipleExperience &&
                                 exp.toCombine &&
@@ -97,21 +110,22 @@ const Timeline: React.FC = () => {
                                                         {exp.description}
                                                     </p>
                                                 </div>
-                                                {
-                                                    exp.toCombine.map((ext, i) => (
-                                                        <div className="block" key={i}>
-                                                            <p className="text-sm text-gray-300">
-                                                                {ext.title}
-                                                            </p>
-                                                            <p className="text-sm text-gray-400 italic mb-3">
-                                                                {ext.date}
-                                                            </p>
-                                                            <p className="text-gray-200">
-                                                                {ext.description}
-                                                            </p>
-                                                        </div>
-                                                    ))
-                                                }
+                                                {exp.toCombine.map((ext, i) => (
+                                                    <div
+                                                        className="block"
+                                                        key={i}
+                                                    >
+                                                        <p className="text-sm text-gray-300">
+                                                            {ext.title}
+                                                        </p>
+                                                        <p className="text-sm text-gray-400 italic mb-3">
+                                                            {ext.date}
+                                                        </p>
+                                                        <p className="text-gray-200">
+                                                            {ext.description}
+                                                        </p>
+                                                    </div>
+                                                ))}
                                             </div>
                                         </div>
                                     </div>
@@ -133,6 +147,16 @@ const Timeline: React.FC = () => {
                                 )}
                             </div>
                         ))}
+                    </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                    animateIn="fadeInLeft"
+                    animateOut="fadeOutRight"
+                >
+                    <div className="flex items-center justify-center mt-4">
+                        <PrimaryButton onClick={scrollToTechStacks}>
+                            See My Tech Stacks
+                        </PrimaryButton>
                     </div>
                 </ScrollAnimation>
             </div>

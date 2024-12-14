@@ -5,6 +5,7 @@ import ogImage from "@/assets/images/og-image.png"
 import bgCity from "@/assets/images/bg-city.webp";
 import Navbar from "@/components/app/Navbar";
 import "animate.css/animate.compat.css";
+import "swiper/css";
 import BaseProvider from "@/providers/BaseProvider";
 
 const geistSans = localFont({

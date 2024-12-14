@@ -1,7 +1,9 @@
 import LoadWhenAllResourcesLoaded from "@/components/app/LoadWhenAllResourcesLoaded";
 import About from "@/sections/About";
+import Footer from "@/sections/Footer";
 import Headline from "@/sections/Headline";
 import Experiences from "@/sections/journey/Experiences";
+import TechStacks from "@/sections/tech-stacks";
 
 export default function Home() {
 	return (
@@ -10,6 +12,8 @@ export default function Home() {
 				<Headline />
 				<About />
 				<Experiences />
+				<TechStacks />
+				<Footer />
 			</LoadWhenAllResourcesLoaded>
 		</div>
 	);
