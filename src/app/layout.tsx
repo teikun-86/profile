@@ -21,7 +21,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("http://localhost:3000"),
+	metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL ?? 'https://azizfsama.vercel.app'),
 	title: "Aziz Febriyanto — Full-Stack Developer & Digital Transformation Specialist",
 	description:
 		"Hi, I'm Aziz — Full-Stack Developer & Digital Transformation Specialist",
